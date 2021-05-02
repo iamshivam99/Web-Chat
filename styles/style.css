@@ -1,9 +1,16 @@
 body{background-image: linear-gradient(rgb(231, 255, 211),rgb(147, 231, 121)); width: 100vw; height: 100vh;}
-.app-heading{ width: 100vw; height: 50px; text-align: center; font-size: 30px; font-weight: 500; color: rgb(121, 121, 121); padding: 10px 5px;}
-.app-heading .logo {width: 50px; height: 50px;}
-.chat-box{ position: relative; width: 60vw; height: 80vh; border: black 3px solid; border-radius: 15px; margin: 20px auto; background-image: url("/resources/whatsapp-wall2.jpg"); overflow-y: auto; overflow-x: hidden;}
-.chat-box .msg-box{ height: auto 40px; width: 250px; padding: 5px; background-color: rgb(255, 255, 231); padding: auto; border-radius: 15px; margin: 10px;}
-.chat-box .msg-box .msg-left{ float: left;} .msg-right{float: right;}
-.chat-box .sent-box{position:absolute;flex:content; flex-direction: row; bottom: 5px; left: 10px; width: 60vw;}
-.chat-box .sent-box .text-box{ width: 54vw;height: 50px; float: left; border: none; border-radius: 10px; border: gray 1px solid; background-color: rgb(255, 246, 238);}
-.chat-box .sent-box .send-btn {width: 4vw; height: 50px; text-align: center; border-radius: 10px; margin: auto 5px; border: gray 1px solid; background-color: rgb(255, 246, 238);} img{height: 25px; margin: auto;}
+.app-heading{ width: 100vw; height: 50px; text-align: center; font-size: 28px; font-weight: 500; color: rgb(121, 121, 121); padding: 10px 5px;}
+.app-heading .logo {width: 35px; height: 35px;}
+.chat-box{ position: relative; width: 61vw; height: 80vh; border: black 3px solid; border-radius: 15px; margin: 20px auto; background-image: url("/resources/whatsapp-wall2.jpg"); overflow-y: auto; overflow-x:hidden;}
+.chat-box .msg-box{ display: block; height: auto 40px; max-width: 450px; padding: 5px 15px; background-color: rgb(255, 255, 231); border-radius: 15px; margin: 10px;}
+.chat-box .msg-left{ float: left; clear: both;} .msg-right{float: right; clear: both;} .user-joined{font-size: 15px; background-color: rgb(255, 255, 231); border-radius: 15px; font-weight: 400; clear: both; text-align: center; color: black; padding: 5px;}
+.chat-box .sent-box{ position:fixed; bottom: 0px; width: 60vw;}
+.chat-box .sent-box .text-box{ width: 92%;height: 50px; float: left; border: none; border-radius: 10px; border: gray 1px solid; background-color: rgb(255, 246, 238);}
+.chat-box .sent-box .send-btn {width: 7%; height: 50px; text-align: center; border-radius: 10px; margin-left: 5px; border: gray 1px solid; background-color: rgb(255, 246, 238);} img{height: 25px;}
+
+input:focus, button:focus { outline: none; }
+
+::-webkit-scrollbar { width: 4px; border-radius: 5px; margin: 10px; }
+::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 5px; margin: 10px; }
+::-webkit-scrollbar-thumb { background: rgb(128, 128, 128); border-radius: 5px; margin: 10px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(128, 128, 128); }

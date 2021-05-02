@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "socket.io": "^4.0.1"
+  },
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshivam99/Web-Chat.git"
+  },
+  "author": "Shivam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshivam99/Web-Chat/issues"
+  },
+  "homepage": "https://github.com/iamshivam99/Web-Chat#readme"
+}
